@@ -19,7 +19,7 @@ async def on_connect():
 	os.system('title Github.com/3kv <3')
 	print(f'''
 	Name : {client.user}
-	ID : {client.id}
+	ID : {client.user.id}
 	Prefix : {prefix}
 
 	Github.com/3kv <3
